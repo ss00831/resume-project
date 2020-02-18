@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fdc5880dc5.js" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
     <title>Songhei Lee</title>
@@ -43,14 +44,127 @@
         </div>
     </header>
     <section class="container-fluid">
-        <div class="row row-table">
-            <div class="col-md bg-color-three-reasons section-color">
+        <div class="row">
+            <div class="col-md-4 bg-color-work-history section-column">
                 <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading uppercase">About me</h3>
+                     <div class="col-12">
+                        <h3 class="history-heading uppercase">Work history</h3>
                     </div>
                 </div>
+                <div class="history-items">
+                <div class="timeline-item" data-dates = "10/2008 - 03/2016">
+                    <h4>Samsung Electronic</h4>
+                    <p>QA Tester</p>
+                </div>
+
+                
+                <div class="timeline-item" data-dates = "03/2016 - 03/2017">
+                    <h4>Clonix Ltd</h4>
+                    <p>QA Senior Tester</p>
+                </div>
+
+                
+                <div class="timeline-item" data-dates = "09/2018 - 03/2019">
+                    <h4>LG Electronic Nordic AB</h4>
+                    <p>Assistance Product Manager</p>
+                </div>
+
+                
+                <div class="timeline-item" data-dates = "05/2019 - 06/2019">
+                    <h4>Kotra Stockholm</h4>
+                    <p>Marketing coordinator</p>
+                </div>
+
+                
+                <div class="timeline-item" data-dates = "01/2020 - Present">
+                    <h4>Runstenen Kronan Antik AB</h4>
+                    <p>Sales</p>
+                </div>
+                </div>
             </div>
+            <div class="col-md-8 bg-color-three-reasons section-color">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">My Skills</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class = "col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fab fa-windows" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Testing</h4>
+                                <p>
+                                    I'm a skilled testing and Full stack developer with a wealth of diverse life and technical experience that I bring to every project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fas fa-tv" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Front End</h4>
+                                <p>
+                                     I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. I also have extensive experience in Front End Frameworks such as Angular and React
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fas fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Back End</h4>
+                                <p>
+                                    I specialize in data-driven web applications. Many of my projects utilise document-based data. I use Python and Django in conjunction with MongoDB to process and present information.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row progress-section">
+                    <div class="col">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
+                                <span class="sr-only">95% complete</span>
+                            </div>
+                            <span class="progress-type">Hardware Testing</span>
+                        </div>
+                        
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
+                                <span class="sr-only">90% complete</span>
+                            </div>
+                            <span class="progress-type">Software Testing</span>
+                        </div>
+                        
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
+                                <span class="sr-only">85% complete</span>
+                            </div>
+                            <span class="progress-type">HTML / HTML5</span>
+                        </div>
+                        
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
+                                <span class="sr-only">80% complete</span>
+                            </div>
+                            <span class="progress-type">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>                
         </div>
     </section>
 
