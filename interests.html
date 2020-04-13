@@ -26,13 +26,13 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-                                <a href="#" class="hvr-back-pulse"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-back-pulse"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
-                                <a href="#" class="hvr-back-pulse"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                                <a href="resume.html" class="hvr-back-pulse"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                             </li>
                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-                                <a href="#" class="hvr-back-pulse"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
+                                <a href="contact.html" class="hvr-back-pulse"><i class="far fa-comment" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
                             <li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
                                 <a href="interests.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Interests</span></a>
@@ -41,7 +41,7 @@
                                 <a href="github.html" class="hvr-sweep-to-bottom"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
                             </li>
                             <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-                                <a href="#" class="hvr-back-pulse"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
+                                <a href="assets/cv/CV_Songhei_Lee.pdf" class="hvr-back-pulse"><i class="fa fa-download" aria-hidden="true"></i><span>Download</span></a>
                             </li>                        
                         </ul>
                     </div>                
@@ -51,126 +51,88 @@
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-md-4 bg-color-work-history section-column">
+            <div class="col-md-4 bg-color-conferences section-column">
                 <div class="row">
-                     <div class="col-12">
-                        <h3 class="history-heading uppercase">Work history</h3>
+                    <div class="col-12">
+                        <h3 class="section-heading uppercase">
+                            Conferences And Meetups Attended
+                        </h3>
                     </div>
                 </div>
-                <div class="history-items">
-                <div class="timeline-item" data-dates = "10/2008 - 03/2016">
-                    <h4>Samsung Electronic</h4>
-                    <p>QA Tester</p>
+                <div id="map"></div>
+                <!-- We're going to give this <div> the ID of map.
+                As you remember before, using JavaScript, we can target these IDs, so that JavaScript will know where to put the map.
+                As you can see, we're just adding it to the end of our bg-color-conferences element.-->
+            </div>
+            <div class="col-md-8 bg-color-groups">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="section-heading uppercase">My Groups And Societies</h3>
+                    </div>
                 </div>
-
-                
-                <div class="timeline-item" data-dates = "03/2016 - 03/2017">
-                    <h4>Clonix Ltd</h4>
-                    <p>QA Senior Tester</p>
-                </div>
-
-                
-                <div class="timeline-item" data-dates = "09/2018 - 03/2019">
-                    <h4>LG Electronic Nordic AB</h4>
-                    <p>Assistance Product Manager</p>
-                </div>
-
-                
-                <div class="timeline-item" data-dates = "05/2019 - 06/2019">
-                    <h4>Kotra Stockholm</h4>
-                    <p>Marketing coordinator</p>
-                </div>
-
-                
-                <div class="timeline-item" data-dates = "01/2020 - Present">
-                    <h4>Runstenen Kronan Antik AB</h4>
-                    <p>Sales</p>
-                </div>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Coding Grace</h4>
+                                <p>
+                                    Coding Grace are a group of developers based in Ireland who love to code and do other geeky and not necessarily crafty activities. Some of us code full-time, or just for fun (or both). We have people who are part of other technical user groups such as
+                                    Dublin ALT.NET, GameCraft, Python Ireland, Ruby Ireland and more.
+                                    <a href="https://codinggrace.com/" target="_blank">Coding Grace</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Django Girls</h4>
+                                <p>
+                                    Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops by providing tools, resources and support. We are a volunteer run organization with hundreds of people contributing
+                                    to bring more amazing women into the world of technology.
+                                    <a href="https://djangogirls.org/" target="_blank">Django Girls</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">Full Stack NY</h4>
+                                <p>
+                                    Our meetup is an event where web designers and developers can come together to learn from and teach each other about emerging technologies. While speakers at Full Stack focus primarily on angularjs, react, node, hapiJS, espress, plain ole' JavaScript,
+                                    HTML, and CSS, we encourage all local web professionals to join us for vivid discussions around technology across the stack in any language.
+                                    <a href="https://www.meetup.com/javascript-full-stack-development/" target="_blank">Full Stack NY</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                        <div class="row">
+                            <div class="col-2">
+                                <i class="three-reasons-icon fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="three-reasons-heading uppercase">IoT Nation</h4>
+                                <p>
+                                    IoT Nation's mission is to inspire, engage, and connect entrepreneurs, investors, professionals, & enthusiasts worldwide who are active in the Internet of Things (IoT). This group is for professionals and enthusiasts in the Internet of Things. We welcome
+                                    those who want to learn about this emerging field which is fascinating as IoT makes use of a diverse range of technologies and has the promise to impact a vast number of vertical markets.
+                                    <a href="https://www.meetup.com/NYCIOT/" target="_blank">IoT Nation</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-8 bg-color-three-reasons section-color">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="section-heading uppercase">My Skills</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class = "col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fab fa-windows" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Testing</h4>
-                                <p>
-                                    I'm a skilled testing and Full stack developer with a wealth of diverse life and technical experience that I bring to every project.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fas fa-tv" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Front End</h4>
-                                <p>
-                                     I'm skilled in User Experience Design using the trinity of HTML/CSS/Javascript. I also have extensive experience in Front End Frameworks such as Angular and React
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class = "col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="three-reasons-icon fas fa-cogs" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="three-reasons-heading uppercase">Back End</h4>
-                                <p>
-                                    I specialize in data-driven web applications. Many of my projects utilise document-based data. I use Python and Django in conjunction with MongoDB to process and present information.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row progress-section">
-                    <div class="col">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
-                                <span class="sr-only">95% complete</span>
-                            </div>
-                            <span class="progress-type">Hardware Testing</span>
-                        </div>
-                        
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
-                                <span class="sr-only">90% complete</span>
-                            </div>
-                            <span class="progress-type">Software Testing</span>
-                        </div>
-                        
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
-                                <span class="sr-only">85% complete</span>
-                            </div>
-                            <span class="progress-type">HTML / HTML5</span>
-                        </div>
-                        
-                        <div class="progress">
-                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                            <!-- It's not something that I generally recommend to do inline styling, but in this case, this is how Bootstrap has chosen to implement it. -->
-                                <span class="sr-only">80% complete</span>
-                            </div>
-                            <span class="progress-type">CSS3</span>
-                        </div>
-                    </div>
-                </div>
-            </div>                
         </div>
     </section>
 
@@ -186,7 +148,7 @@
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
                     Need a printable version of my CV? Download it here.
-                    <a href="#" target="_blank" class="cv-pdf">
+                    <a href="assets/cv/CV_Songhei_Lee.pdf" target="_blank" class="cv-pdf">
                         <i class="fa fa-download" aria-hidden="true"></i>
                         <span class="sr-only">Download</span>
                     </a>
@@ -217,5 +179,9 @@
             </div>
         </div>    
     </footer>
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA0TwhmtHwPbGqxzQ3-7IQhyWFGhru_tk&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 </html>

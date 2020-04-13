@@ -333,3 +333,5 @@ footer{
 .history-items{
     margin-bottom: 30px;
 }
+
+div#map {min-height: 360px;}
